@@ -1,132 +1,4 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-button {
-  border: none;
-  outline: none;
-}
 
 :root {
   --color-logo: #4d5ae5;
@@ -144,7 +16,8 @@ body {
 }
 
 .container {
-  margin: 0 156px 0 156px;
+width: 1158px;
+margin: 0 auto;
 }
 
 .list {
@@ -161,12 +34,9 @@ header {
   font-style: normal;
   list-style: none;
   color: var(--color-text);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
   background-color: var(--color-white);
+  background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav {
@@ -256,8 +126,6 @@ header {
 .hero-section {
   box-sizing: border-box;
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -316,6 +184,12 @@ header {
 
 .ours-list {
   display: flex;
+  margin-right: 24ox;
+}
+
+.goals-item {
+  list-style: none;
+  
 }
 
 .goals-list-title {
@@ -333,7 +207,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
-  margin-right: 24px;
+ 
   width: 264px;
 }
 
@@ -414,12 +288,7 @@ header {
 /* index.html FOOTER */
 .web-footer {
   background-color: #2e2f42;
-  box-sizing: border-box;
-
-  width: 1440px;
-  height: 312px;
-
-  margin-bottom: 100px;
+  height: 312px; 
 }
 
 .logo-title-footer {
@@ -454,8 +323,9 @@ header {
 
 .portfolio {
   box-sizing: border-box;
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin: 0 auto;
+  
+  
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -482,6 +352,9 @@ header {
 .portfolio-list {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 /* portfolio.html LIST */
