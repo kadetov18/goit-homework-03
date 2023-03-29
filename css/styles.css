@@ -1,5 +1,4 @@
 
-@import url('normalize.css');
 
 :root {
   --color-logo: #4d5ae5;
@@ -16,9 +15,9 @@ body {
   color: var(--color-text);
 }
 
-html, body, div, span,
+
 h1, h2, h3, h4, h5, h6, p,
-a, address, img,  ol, ul, li, thead, footer,  nav, section {
+   ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -390,6 +389,7 @@ margin-bottom: 8px;
 .portfolio-info-wrap {
   padding-top: 32px ;
   padding-bottom: 32px;
+
 }
 .non-margin  {
  
@@ -417,7 +417,7 @@ ul.img-list.list li:nth-last-child(-n+3) {
 }
 
 .img-list {
-  display: flex;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -456,5 +456,3 @@ ul.img-list.list li:nth-last-child(-n+3) {
   width: 360px;
   margin-right: 0;
   }
-
-/* portfolio.html finish */
